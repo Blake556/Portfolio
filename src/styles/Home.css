@@ -1,0 +1,6 @@
+
+.home-container {
+   
+    background-image: url("../../public/background-img.jpg");
+    min-height: 100vh;
+}
