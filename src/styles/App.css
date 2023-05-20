@@ -1,4 +1,12 @@
 .app-body {
-  background-image: url("../../public/background-img.jpg");
+  /* background-image: url("../../public/pexels-neo-2653362.jpg"); */
+  background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
   min-height: 100vh;
+  filter: blur(4px);
+}
+
+.app-container {
+  background-image: url("../../public/pexels-neo-2653362.jpg");
 }

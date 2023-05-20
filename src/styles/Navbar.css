@@ -1,6 +1,6 @@
 .navbar-container {
-    height: 125px;
-    background-color: #1B2A49;
+    height: 100px;
+    background-color: #111b2f;
     text-align: right;
    
 }
@@ -9,7 +9,7 @@ a,span {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
-   
+    
 }
 
 span {
