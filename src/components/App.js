@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import projectData from '../projectData';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Home from "./Home";
@@ -16,9 +17,11 @@ function App() {
         <Navbar />
       <div className="app-body">
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/Home" element={
+            <Home />
+          } />
           <Route path="/Skills" element={<Skills />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Portfolio" element={<Portfolio projectData={projectData}/>} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>

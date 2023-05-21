@@ -1,0 +1,38 @@
+.project-container {
+    background-color: #1089FF;
+    margin-left: 100px;
+    width: 420px;
+    height: 575px;
+    border-radius: 5px;
+}
+
+.screenshot, img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.info-container {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+}
+
+.description  {
+    font-size: 1.3rem;
+}
+
+.title {
+    padding: 20px 0;
+}
+
+.view-project {
+    padding: 20px 0;
+}
+
+.view-website, .view-code {
+    background-color: black;
+    padding: 12px;
+    border-radius: 15px;
+}
+

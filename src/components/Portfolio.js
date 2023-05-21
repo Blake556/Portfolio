@@ -1,9 +1,19 @@
+import Project from './Project';
 import '../styles/Portfolio.css';
 
-function Portfolio() {
+function Portfolio(props) {
+
+  const projectData = props.projectData
+  
+
   return (
     <div className="">
-      <h1 className="page-title text-center">Portfolio</h1>
+      <div className="title-container">
+        <h1 className="page-title text-center">Portfolio</h1>
+      </div>
+      
+       <Project projectData={projectData}/>
+     
     </div>
   );
 }
