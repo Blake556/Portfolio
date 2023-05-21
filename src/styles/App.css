@@ -1,12 +1,20 @@
-.app-body {
-  /* background-image: url("../../public/pexels-neo-2653362.jpg"); */
-  background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center;
-  min-height: 100vh;
-  filter: blur(4px);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.app-container {
-  background-image: url("../../public/pexels-neo-2653362.jpg");
+.app-body {
+  min-height: 100vh;
+  
+}
+
+
+.app-container{
+  
+  background-image: url("../../public/background-img.jpg");
+  background-size: cover; /* or contain, depending on your preference */
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }

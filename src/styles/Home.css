@@ -1,19 +1,41 @@
 
 .home-container {
-   
-    background-image: url("../../public/pexels-neo-2653362.jpg");
-    background-size: 100% auto;
+    /* background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
-
-    min-height: 100vh;
+    min-height: 100vh; */
 }
 
 .intro-head {
     color: white;
-    font-size: 5rem;
+    font-size: 6rem;
+    font-weight: 600;
+    /* text-indent: 2em; */
 }
 
+.line-two {
+    
+    margin-left: 100px;
+}
+
+.line-three {
+   
+   
+}
+
+
 .container {
-    padding-top: 200px;
+    padding-top: 100px;
+}
+
+.home-img-container {
+    background-color: rgba(17, 27, 47, 0.8);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    /* background-color: #111b2f; */
+    /* opacity: 70%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
