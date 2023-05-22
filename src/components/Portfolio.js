@@ -11,7 +11,7 @@ function Portfolio(props) {
       <div className="title-container">
         <h1 className="page-title text-center">Portfolio</h1>
       </div>
-      
+      <div></div>
        <Project projectData={projectData}/>
      
     </div>
