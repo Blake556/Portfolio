@@ -5,3 +5,8 @@
 .page-title {
     color: white;
 }
+
+.skills-icon {
+    border-top: 2px solid #1089FF;
+    color: #1089FF;
+}

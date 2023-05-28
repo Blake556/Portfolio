@@ -1,15 +1,16 @@
 .project-container {
     background-color: #1089FF;
-    margin-left: 100px;
+    /* background-color: rgba(255, 119, 119); */
+    /* background-color: #900000; */
     width: 420px;
-    height: 575px;
-    border-radius: 5px;
+    height: 700px;
+    border-radius: 20px;
 }
 
 .screenshot, img {
     width: 100%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .info-container {
@@ -20,6 +21,7 @@
 
 .description  {
     font-size: 1.3rem;
+    color: ;
 }
 
 .title {
@@ -30,8 +32,31 @@
     padding: 20px 0;
 }
 
+
+.techs-container {
+  height: 125px;
+}
+
+.tech {
+    background-color: rgb(7, 19, 42);
+    border: 3px solid  #003afa;
+    border-radius: 10px;
+    color: rgb(255, 119, 119);
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 10px;
+    
+}
+
+.tech-box {
+    display: inline-block;
+    margin: 10px 0;
+}
+
 .view-website, .view-code {
-    background-color: black;
+    background-color: rgb(7, 19, 42);
+    border: 3px solid  #003afa;
+    color: rgb(255, 119, 119);
     padding: 12px;
     border-radius: 15px;
 }

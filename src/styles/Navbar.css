@@ -18,7 +18,9 @@ span {
    margin: 0 15px;
 }
 
-span:hover {
-    border-bottom: 5px solid #0d6efd;
+.nav-link:hover {
+    /* border-bottom: 5px solid #0d6efd; */
+     border-bottom: 5px solid  #FF7777;
+ 
   }
 

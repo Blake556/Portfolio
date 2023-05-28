@@ -9,7 +9,7 @@ function Home() {
             <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-6 ">
                     <h1 className="intro-head text-primary">Hi, im Blake</h1>
-                    <h1 className="intro-head text-primary line-two">front-end</h1>
+                    <h1 className="intro-head  line-two">front-end</h1>
                     <h1 className="intro-head text-primary line-three">Developer</h1>
                 </div>
                 <div className="col-6 d-flex justify-content-center">
