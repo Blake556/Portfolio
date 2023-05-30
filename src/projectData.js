@@ -63,15 +63,15 @@ let projectData = [
         website: 'https://',
         code: 'https://github.com/Blake556/Twitter' 
     },    
-    {
-        id: 6,
-        screenShot: amazon,
-        name: 'Amazon 2.0',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['html', 'javaScript',  'bootstrap', 'css'],
-        website: 'https://blake556.github.io/Amazon-2.0/html/clothes.html',
-        code: 'https://github.com/Blake556/Amazon-2.0' 
-    }, 
+    // {
+    //     id: 6,
+    //     screenShot: amazon,
+    //     name: 'Amazon 2.0',
+    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    //     techUsed: ['html', 'javaScript',  'bootstrap', 'css'],
+    //     website: 'https://blake556.github.io/Amazon-2.0/html/clothes.html',
+    //     code: 'https://github.com/Blake556/Amazon-2.0' 
+    // }, 
 
 ]
 

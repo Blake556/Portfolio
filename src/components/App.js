@@ -5,6 +5,7 @@ import projectData from '../projectData';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Home from "./Home";
+
 import Portfolio from "./Portfolio";
 import About from "./About";
 import Contact from "./Contact";
