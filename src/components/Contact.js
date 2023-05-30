@@ -19,11 +19,6 @@ function Contact() {
   };
   
 
-  
-
-
-
-
   return (
     <div className="component">
       <div>
@@ -32,15 +27,15 @@ function Contact() {
         <form ref={form} onSubmit={sendEmail} className="container form-container" action="">
           <div className="row d-flex justify-content-center input-container ">
             <label className="" htmlFor="">Name<span class="required">*</span></label>
-            <input className="col col-10 " type="text" name="user_name" required />
+            <input className="col col-9 " type="text" name="user_name" required />
           </div>
           <div className="row  d-flex justify-content-center input-container">
           <label htmlFor="">Email<span class="required">*</span></label>
-            <input className="col col-10" type="email" name="user_email" required />
+            <input className="col col-9" type="email" name="user_email" required />
           </div>
           <div className="row  d-flex justify-content-center input-container">
             <label htmlFor="">Message<span class="required">*</span></label>
-            <textarea id="w3review" name="Message" rows="4" cols="50" placeholder='' className="col col-10 non-resizable">
+            <textarea id="w3review" name="Message" rows="4" cols="50" placeholder='' className="col col-9 non-resizable" required >
               {/* At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies. */}
             </textarea>
           </div>

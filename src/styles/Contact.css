@@ -10,7 +10,7 @@
 
 .form-container  {
     
-    background-color: white;
+    /* background-color: rgba(7, 19, 42,); */
     width: auto;
     /* background-color:white; */
     height: 700px;
@@ -29,7 +29,7 @@ form {
 }
 
 .form-container {
-    width: 50%;
+    width: 40%;
 }
 
 .input-container {
@@ -45,12 +45,12 @@ form {
 
 
 label {
-    font-size: 2rem;
-    margin-left: 14%;
+    font-size: 1.5rem;
+    margin-left: 22%;
 }
 
 input {
-    font-size: 2rem;
+    font-size: 1.7rem;
     outline: none;
     border: 3px solid black;
     background-color: transparent;
@@ -63,7 +63,7 @@ input {
 
 
 textarea  {
-    font-size: 2rem;
+    font-size: 1.4rem;
     resize: none;
     width: 60%;
     height: 225px;
