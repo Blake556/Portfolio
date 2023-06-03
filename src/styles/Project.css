@@ -1,12 +1,13 @@
 .project-container {
-    background-color: #1089FF;
-    /* background-color: rgba(255, 119, 119); */
-    /* background-color: #900000; */
-    width: 420px;
-    height: 700px;
-    border-radius: 20px;
-}
+    position: relative;
+  background-color: white;
+  width: 440px;
+  height: 850px;
+  border-radius: 20px;
+  margin: 35px 0 75px 0;
+  }
 
+ 
 .screenshot, img {
     width: 100%;
     border-top-left-radius: 20px;
@@ -21,7 +22,7 @@
 
 .description  {
     font-size: 1.3rem;
-    color: ;
+    
 }
 
 .title {
@@ -29,35 +30,85 @@
 }
 
 .view-project {
-    padding: 20px 0;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center; /* Added text-align property */
+    padding: 0 20px;
 }
 
 
-.techs-container {
-  height: 125px;
+.container.techs-container {
+  height: auto;
+  margin-bottom: 30px;
 }
 
 .tech {
     background-color: rgb(7, 19, 42);
-    border: 3px solid  #003afa;
+    /* border: 3px solid  #003afa; */
     border-radius: 10px;
-    color: rgb(255, 119, 119);
-    font-size: 1.2rem;
-    padding: 8px;
-    margin: 10px;
+    /* color: #1089FF; */
+    font-size: 1.1rem;
+    padding: 4px;
+    margin-left: 0;
     
 }
 
 .tech-box {
-    display: inline-block;
-    margin: 10px 0;
+    /* display: inline-block; */
+    margin: 8px 0;
+   
+}
+
+.row.tech-box {
+    
+    align-items: center;
+  }
+
+.container {
+    margin: 0;
 }
 
 .view-website, .view-code {
     background-color: rgb(7, 19, 42);
-    border: 3px solid  #003afa;
-    color: rgb(255, 119, 119);
-    padding: 12px;
+    color: #1089FF;
+    
+   /* Adjusted padding 
+    values */
+   
     border-radius: 15px;
+    display: inline-block; /* Added display property */
+}
+
+.view-website {
+    position: relative;
+    right: 10px;
+}
+
+.view-code {
+    position: relative;
+    left: 10px;
+}
+
+
+
+.project-container:hover {
+    /* background-color:white;
+   
+    width: 435px;
+    height: 900px;
+    border-radius: 20px;
+    margin: 35px 0 75px 0; */
+}
+
+.view-website:hover {
+    background-color:#1089FF;
+    color: black;
+}
+
+.view-code:hover {
+    background-color:#1089FF;
+    color: black;
 }
 

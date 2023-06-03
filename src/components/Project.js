@@ -13,11 +13,11 @@ function Project(props) {
         </div>
         <div className='info-container'>
             <div className='title d-flex justify-content-center'>
-                <h3>{name}</h3>
+                <h2>{name}</h2>
             </div>
-            <div className='techs-container'>
+            <div className='container techs-container'>
                 {techUsed.map((tech, index) => (
-                    <div className='tech-box'>
+                    <div className='row tech-box '>
                         <span key={index} className="tech">{tech}</span>
                     </div>
                 ))}
@@ -26,9 +26,10 @@ function Project(props) {
                 <p>{description}</p>
             </div>
            
-            <div className='view-project d-flex justify-content-center'>
-                <a href={website} target='blank'> <span className='view-website'>Website</span></a>
-                <a href={code} target='blank'> <span className='view-code'>Code</span></a>
+            <div className='view-project '>
+                
+                <a href={website} target='blank'> <span className='btn  view-website'>Site</span></a>
+                <a href={code} target='blank'> <span className='btn  view-code'>Code</span></a>
             </div>
         </div>
     </div>

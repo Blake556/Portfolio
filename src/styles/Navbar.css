@@ -20,7 +20,7 @@ span {
 
 .nav-link:hover {
     /* border-bottom: 5px solid #0d6efd; */
-     border-bottom: 5px solid  #FF7777;
- 
+     /* border-bottom: 5px solid  #FF7777; */
+     border-bottom: 5px solid white;
   }
 

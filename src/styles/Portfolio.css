@@ -19,7 +19,8 @@ h1.page-title {
 }
 
 .container {
-    max-width: 1500px; 
+    max-width: 1700px; 
+   
     padding-top: 0;
     padding-right: 15px;
     padding-left: 15px;
@@ -30,7 +31,9 @@ h1.page-title {
 
   .col {
     margin-bottom: 70px; 
-    margin-top: 70px; 
+    margin-top: 70px;
+    margin-right: 60px;
+  margin-left: 60px; 
   }
 
 

@@ -13,7 +13,7 @@ let projectData = [
         screenShot: canvasStore,
         name: 'Canvas store',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['React', 'React-router', 'Material UI','javaScript', 'bootstrap', 'css'],
+        techUsed: ['React', 'React Router', 'Material UI','JavaScript', 'Bootstrap'],
         website: 'https://blake556.github.io/Canvas-store/',
         code: 'https://github.com/Blake556/Canvas-store'
     },
@@ -22,7 +22,7 @@ let projectData = [
         screenShot: fTracker,
         name: 'Calorie counter',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['React', 'javaScript', 'bootstrap', 'css'],
+        techUsed: ['React', 'JavaScript', 'Bootstrap', 'CSS'],
         website: 'https://blake556.github.io/Calorie-Tracker/',
         code: 'https://github.com/Blake556/Calorie-Tracker'
         
@@ -32,7 +32,7 @@ let projectData = [
         screenShot: musify,
         name: 'Musify',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['Api', 'Node', 'Express','Ejs', 'css'],
+        techUsed: ['Spotify Api', 'Node', 'Express','Ejs', 'CSS'],
         website: 'https://',
         code: 'https://github.com/Blake556/Musify' 
     },
@@ -41,7 +41,7 @@ let projectData = [
         screenShot: todo,
         name: 'Todo list',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['Node', 'Express', 'ejs', 'css'],
+        techUsed: ['Node', 'Express', 'EJS', 'CSS'],
         website: 'https://',
         code: 'https://github.com/Blake556/Todo-app' 
     },
@@ -50,8 +50,8 @@ let projectData = [
         screenShot: techStore,
         name: 'Tech store',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['html', 'javaScript', 'bootstrap', 'css'],
-        website: 'https://',
+        techUsed: ['HTML', 'JavaScript', 'Bootstrap', 'CSS'],
+        website: 'https://blake556.github.io/Electronics-store/',
         code: 'https://github.com/Blake556/Tech-store' 
     }, 
     {
@@ -59,19 +59,19 @@ let projectData = [
         screenShot: twitter,
         name: 'Twitter 2.0',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['html', 'javaScript', 'css'],
-        website: 'https://',
+        techUsed: ['HTML', 'JavaScript', 'CSS'],
+        website: 'https://blake556.github.io/Twitter/',
         code: 'https://github.com/Blake556/Twitter' 
     },    
-    // {
-    //     id: 6,
-    //     screenShot: amazon,
-    //     name: 'Amazon 2.0',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    //     techUsed: ['html', 'javaScript',  'bootstrap', 'css'],
-    //     website: 'https://blake556.github.io/Amazon-2.0/html/clothes.html',
-    //     code: 'https://github.com/Blake556/Amazon-2.0' 
-    // }, 
+    {
+        id: 6,
+        screenShot: amazon,
+        name: 'Amazon 2.0',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        techUsed: ['HTML', 'JavaScript',  'Bootstrap', 'CSS'],
+        website: 'https://blake556.github.io/Amazon-2.0/html/clothes.html',
+        code: 'https://github.com/Blake556/Amazon-2.0' 
+    }, 
 
 ]
 
