@@ -17,15 +17,15 @@ function Footer() {
         <a href="https://github.com/Blake556?tab=repositories" target="_blank">
           <FontAwesomeIcon icon={faGithub} size="2x" style={iconStyle} />
         </a>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlwHGTsQfFwMKSSpGxZQmNHhfcLdgvmsXqhcnJjBbGCrwvFxnDvHGdXMDbnvDxpKdGXGX" target="_blank">
           <FontAwesomeIcon icon={faEnvelope} size="2x" style={iconStyle} />
         </a>
         <a>
           <FontAwesomeIcon icon={faLinkedin} size="2x" style={iconStyle} />
         </a>
-        <a>
+        {/* <a>
           <FontAwesomeIcon icon={faFacebookF} size="2x" style={iconStyle} />
-        </a>
+        </a> */}
       </div>
     </div>
   );
