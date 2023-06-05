@@ -1,10 +1,12 @@
 .project-container {
     position: relative;
+  /* background-color: rgba(31, 31, 31); */
   background-color: white;
   width: 440px;
   height: 850px;
   border-radius: 20px;
   margin: 35px 0 75px 0;
+  /* color: white; */
   }
 
  
@@ -31,7 +33,7 @@
 
 .view-project {
     position: absolute;
-    bottom: 20px;
+    bottom: 1px;
     left: 0;
     right: 0;
     text-align: center; /* Added text-align property */
@@ -45,12 +47,15 @@
 }
 
 .tech {
-    background-color: rgb(7, 19, 42);
-    /* border: 3px solid  #003afa; */
+    /* background-color: rgb(7, 19, 42); */
+    
+    border: 3px solid  #003afa;
     border-radius: 10px;
     /* color: #1089FF; */
-    color: limegreen;
+    color: black;
+    border: 2px solid  black;
     font-size: 1.2rem;
+    font-weight: bold;
     padding: 4px;
     margin-left: 0;
     
@@ -67,9 +72,7 @@
     align-items: center;
   }
 
-.container {
-    margin: 0;
-}
+
 
 .view-website, .view-code {
     background-color: rgb(7, 19, 42);
@@ -90,17 +93,6 @@
 .view-code {
     position: relative;
     left: 10px;
-}
-
-
-
-.project-container:hover {
-    /* background-color:white;
-   
-    width: 435px;
-    height: 900px;
-    border-radius: 20px;
-    margin: 35px 0 75px 0; */
 }
 
 .view-website:hover {

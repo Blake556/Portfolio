@@ -1,13 +1,13 @@
 import '../styles/Home.css';
 
-import image from "../images/me5.png"
+import image from "../images/laptop1.png"
 
 function Home() {
   return (
-    <div className="home-container">
+    <div className="home-container ">
         <div className="container">
-            <div className="row d-flex justify-content-center align-items-center">
-                <div className="col-6 ">
+            <div className="row  align-items-center">
+                <div className="col-6 text-center">
                     <h1 className="intro-head text-primary">Hi, im Blake</h1>
                     <h1 className="intro-head  line-two">front-end</h1>
                     <h1 className="intro-head text-primary line-three">Developer</h1>

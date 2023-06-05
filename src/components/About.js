@@ -116,9 +116,9 @@ function About() {
             <h3>Resume</h3>
           </div>
           <div className="summery-resume">
-            <a href="/path/to/resume.pdf"  download >
-              <span className="download">Download</span>
-              <FontAwesomeIcon icon={faFile} className="" />
+            <a href="/path/to/resume.pdf" download>
+              <span className="d-text download">Download</span>
+              <FontAwesomeIcon icon={faFile} className="download" />
             </a>
           </div>
         </div>

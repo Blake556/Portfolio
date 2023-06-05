@@ -19,8 +19,8 @@ h1.page-title {
 }
 
 .main-content {
+    /* background-color: rgba(31, 31, 31, 0.8); */
     background-color: rgba(7, 19, 42, 0.8);
-    color: ;
     border-radius: 20px;
     padding: 50px 75px;
     /* font-weight: bold; */
@@ -48,7 +48,7 @@ h3{
 
 .skills-icon {
    padding: 20px 0;
-   color: limegreen;
+    color: limegreen;
 }
 
 
@@ -74,9 +74,16 @@ h3{
 
 .resume-container {
     padding-bottom: 100px
+    
+}
+
+.d-text {
+    margin-left: 45px;
+
 }
 
 
 .download:hover {
     color: limegreen;
+   
 }
