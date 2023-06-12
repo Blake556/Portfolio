@@ -1,5 +1,5 @@
 .navbar-container {
-    height: 100px;
+    height: 80px;
     /* background-color: #111b2f; */
      /* background-color: rgba(16, 25, 43, 0.8); */
      background-color: rgba(7, 19, 42, 0.8);
@@ -12,7 +12,7 @@
 a,span {
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 span {
@@ -27,6 +27,6 @@ span {
     /* border-bottom: 5px solid #0d6efd; */
      /* border-bottom: 5px solid  #FF7777; */
      color: limegreen;
-     border-bottom: 5px solid limegreen;
+     border-bottom: 3px solid limegreen;
   }
 

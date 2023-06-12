@@ -4,8 +4,8 @@ import image from "../images/laptop1.png"
 
 function Home() {
   return (
-    <div className="home-container ">
-        <div className="container">
+    <div className="home-outer-container ">
+        <div className="inner-container">
             <div className="row  align-items-center">
                 <div className="col-6 text-center">
                     <h1 className="intro-head text-primary">Hi, im Blake</h1>

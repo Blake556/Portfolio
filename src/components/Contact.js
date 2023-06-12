@@ -20,7 +20,7 @@ function Contact() {
   
 
   return (
-    <div className="component">
+    <div className="con-component">
       <div>
         <h1 className="page-title text-center">Contact me</h1>
       </div>
