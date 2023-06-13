@@ -15,12 +15,8 @@ a,span {
     font-size: 1.2rem;
 }
 
-span {
-   margin: 0 15px;
-}
-
 .nav-link {
-   
+    margin: 0 15px;
 }
 
 .nav-link:hover {

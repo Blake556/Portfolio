@@ -50,7 +50,7 @@ let projectData = [
         screenShot: techStore,
         name: 'Tech store',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['HTML', 'JavaScript', 'Bootstrap', 'CSS'],
+        techUsed: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
         website: 'https://blake556.github.io/Electronics-store/',
         code: 'https://github.com/Blake556/Tech-store' 
     }, 
@@ -59,7 +59,7 @@ let projectData = [
         screenShot: twitter,
         name: 'Twitter 2.0',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['HTML', 'JavaScript', 'CSS'],
+        techUsed: ['HTML', 'CSS', 'JavaScript'],
         website: 'https://blake556.github.io/Twitter/',
         code: 'https://github.com/Blake556/Twitter' 
     },    
@@ -68,7 +68,7 @@ let projectData = [
         screenShot: amazon,
         name: 'Amazon 2.0',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['HTML', 'JavaScript',  'Bootstrap', 'CSS'],
+        techUsed: ['HTML', 'Bootstrap', 'CSS', 'JavaScript'],
         website: 'https://blake556.github.io/Amazon-2.0/html/clothes.html',
         code: 'https://github.com/Blake556/Amazon-2.0' 
     }, 

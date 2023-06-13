@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import projectData from '../projectData';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -17,7 +17,8 @@ function App() {
         <Navbar />
       <div className="app-body">
         <Routes>
-          <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Navigate to="/Home" />} />
+  <Route path="/Home" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Portfolio" element={<Portfolio projectData={projectData}/>} />
          

@@ -18,9 +18,12 @@ h1.page-title {
     width: 100%;
 }
 
-.container {
-    max-width: 1700px; 
+.container { 
     padding-top: 0;
+}
+
+.portf-container{
+    max-width: 1700px; 
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto 0 auto;
@@ -31,8 +34,8 @@ h1.page-title {
   .col {
     margin-bottom: 70px; 
     margin-top: 70px;
-    margin-right: 60px;
-  margin-left: 60px; 
+    margin-right: 40px;
+  margin-left: 40px; 
   }
 
 

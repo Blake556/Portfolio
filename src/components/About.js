@@ -24,7 +24,7 @@ function About() {
           </div>
           <div className="summery about-me">
             <p>
-              I am an passionete inspiring front end web developer. "Lorem ipsum
+              I am an passionate inspiring front end web developer. "Lorem ipsum
               dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex

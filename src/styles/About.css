@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .about-container {
     width: 90%;
     margin: 0 auto;
@@ -7,10 +9,14 @@
 h1.page-title {
     color: white;
     padding-bottom: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    font-size: 4rem;
 }
 
 .header {
     font-size: 2rem;
+    
     /* color: #1089FF; */
     color: limegreen;
     border-bottom: 2px solid limegreen;

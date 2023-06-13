@@ -9,7 +9,7 @@ function Portfolio(props) {
       <div className="title-container">
         <h1 className="page-title text-center">Portfolio</h1>
       </div>
-      <div className="container">
+      <div className="container portf-con">
         <div className="row ">
           {projectData.map(project => (
             <div className="col col-4 d-flex justify-content-center ">
