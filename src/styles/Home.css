@@ -62,7 +62,13 @@
 
 
 @media screen and (max-width: 400px) {
+    .row, .col {
+        width: 400px
+    }
+
+
     .intro-h-con {
+       
         margin-bottom: 20px;
     }
 
