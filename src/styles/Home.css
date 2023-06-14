@@ -37,6 +37,12 @@
     padding-top: 80px; /* Reduced padding-top */
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 .home-img-container {
     background-color: rgba(17, 27, 47, 0.8);
     /* background-color: rgba(16, 137, 255, 0.8); */
@@ -51,4 +57,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    order: 1; 
 }
+
+
+@media screen and (max-width: 400px) {
+    .intro-h-con {
+        margin-bottom: 20px;
+    }
+
+    .intro-head {
+        font-size: 3rem; 
+        padding-left: 0;
+       
+    }
+
+    .home-img-container {
+        width: 240px;
+        height: 240px;
+        margin-right: 0;
+        margin-top: 20px;
+        order:-1; 
+    }
+  }

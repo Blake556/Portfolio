@@ -47,7 +47,7 @@
 .container.techs-container {
    
   height: auto;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .tech {
@@ -60,7 +60,7 @@
     border: 2px solid  black;
     font-size: .9rem;
     font-weight: bold;
-    padding: 2px;
+    padding: 1px;
    
     
 }

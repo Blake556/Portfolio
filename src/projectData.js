@@ -12,7 +12,7 @@ let projectData = [
         id: 0,
         screenShot: canvasStore,
         name: 'Canvas store',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        description: 'I built this to showcase building an e-commerce type store. This project has taught me how to use React Router and how to pass data from an array of objects for rendering the data, as well as passing selected data from one page to another through props.',
         techUsed: ['React', 'React Router', 'Material UI','JavaScript', 'Bootstrap'],
         website: 'https://blake556.github.io/Canvas-store/',
         code: 'https://github.com/Blake556/Canvas-store'
@@ -22,7 +22,7 @@ let projectData = [
         screenShot: fTracker,
         name: 'Calorie counter',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['React', 'JavaScript', 'Bootstrap', 'CSS'],
+        techUsed: ['React', 'JavaScript', 'CSS', 'Bootstrap'],
         website: 'https://blake556.github.io/Calorie-Tracker/',
         code: 'https://github.com/Blake556/Calorie-Tracker'
         
@@ -68,7 +68,7 @@ let projectData = [
         screenShot: amazon,
         name: 'Amazon 2.0',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        techUsed: ['HTML', 'Bootstrap', 'CSS', 'JavaScript'],
+        techUsed: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
         website: 'https://blake556.github.io/Amazon-2.0/html/clothes.html',
         code: 'https://github.com/Blake556/Amazon-2.0' 
     }, 

@@ -7,7 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   const iconStyle = {
-    color: 'limegreen',
+    color: '#1089FF',
     marginLeft: '40px',
   };
 
