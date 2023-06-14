@@ -16,7 +16,7 @@ import { faFile, faDatabase } from "@fortawesome/free-solid-svg-icons";
 function About() {
   return (
     <div className="about-container">
-      <h1 className="page-title text-center">About</h1>
+      <h1 className="page-title text-center head">About</h1>
       <div className="main-content">
         <div className="about-me-container">
           <div className="header">
@@ -40,12 +40,13 @@ function About() {
           <div className="header">
             <h3>Skills</h3>
           </div>
-          <div className="summery icons">
-            <div className="">
+          <div className="summery icons d-flex flex-wrap">
+         
+            <div className="icon-con">
               <FontAwesomeIcon className="skills-icon" icon={faHtml5} size="4x" />
               <p>html</p>
             </div>
-            <div>
+            <div className="icon-con">
               <FontAwesomeIcon
                 className="skills-icon"
                 icon={faCss3Alt}
@@ -53,11 +54,11 @@ function About() {
               />
               <p>css</p>
             </div>
-            <div>
+            <div className="icon-con">
               <FontAwesomeIcon className="skills-icon" icon={faJs} size="4x" />
               <p>javaScript</p>
             </div>
-            <div>
+            <div className="icon-con">
               <FontAwesomeIcon
                 className="skills-icon"
                 icon={faBootstrap}
@@ -65,11 +66,11 @@ function About() {
               />
               <p>bootstrap</p>
             </div>
-            <div>
+            <div className="icon-con">
               <FontAwesomeIcon className="skills-icon" icon={faReact} size="4x" />
               <p>react</p>
             </div>
-            <div>
+            <div className="icon-con">
               <FontAwesomeIcon
                 className="skills-icon"
                 icon={faNodeJs}
@@ -77,11 +78,11 @@ function About() {
               />
               <p>node</p>
             </div>
-            <div>
+            <div className="icon-con">
               <FontAwesomeIcon className="skills-icon" icon={faNpm} size="4x" />
               <p>npm</p>
             </div>
-            <div>
+            <div className="icon-con">
               <FontAwesomeIcon
                 className="skills-icon"
                 icon={faGitAlt}
@@ -89,7 +90,7 @@ function About() {
               />
               <p>git</p>
             </div>
-            <div>
+            <div className="icon-con">
               <FontAwesomeIcon
                 className="skills-icon"
                 icon={faGithub}

@@ -104,6 +104,58 @@ h3{
    
 }
 
+@media screen and (max-width: 400px) {
+
+    h1.page-title  {
+        font-size: 3.5rem;
+       
+    }
+
+    .header h3 {
+        font-size: 2rem;
+    }
+
+    .main-content {
+        /* background-color: rgba(31, 31, 31, 0.8); */
+        background-color: rgba(7, 19, 42, 0.8);
+        border-radius: 20px;
+        width: 100%;
+        padding: 20px 0;
+        /* font-weight: bold; */
+        /* margin-bottom: 150px; */
+       text-align: center;
+       margin: 0 auto;
+    }
+
+    .summery p {
+        width: 100%;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+
+
+    .about-me-container, .skills-container, .skills-summery, .resume-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+ 
+    .skills-icon {
+        
+        font-size: 3rem; /* Adjust as needed */
+      }
+
+      .icon-con {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+
+   
+    
+  }
 
 
 

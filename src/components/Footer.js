@@ -18,10 +18,10 @@ function Footer() {
           <FontAwesomeIcon icon={faGithub} size="2x" style={iconStyle} />
         </a>
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlwHGTsQfFwMKSSpGxZQmNHhfcLdgvmsXqhcnJjBbGCrwvFxnDvHGdXMDbnvDxpKdGXGX" target="_blank">
-          <FontAwesomeIcon icon={faEnvelope} size="2x" style={iconStyle} />
+          <FontAwesomeIcon icon={faEnvelope} size="1x" style={iconStyle} />
         </a>
         <a>
-          <FontAwesomeIcon icon={faLinkedin} size="2x" style={iconStyle} />
+          <FontAwesomeIcon icon={faLinkedin} size="1x" style={iconStyle} />
         </a>
         {/* <a>
           <FontAwesomeIcon icon={faFacebookF} size="2x" style={iconStyle} />
