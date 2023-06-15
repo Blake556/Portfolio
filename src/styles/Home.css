@@ -13,13 +13,19 @@
     padding-bottom: 20px;
   }
   
+/* using below to fix overflow issue */
+.inro-col, .row {
+    width: 100%;
+}
+
+
 .intro-head {
     color: white;
     font-size: 5.6rem; 
     font-family: 'Indie Flower', cursive;
     font-weight: 700;
     padding-left: 100px;
-    display: inline-block;
+    display: inline-block; 
     /* text-indent: 2em; */
 }
 

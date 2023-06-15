@@ -39,4 +39,16 @@ h1.page-title {
   }
 
 
+  /* @media screen and (max-width: 400px) {
+    .page-title {
+        color: #1089FF;
+        color: #FF7777;
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+  } */
+
   
