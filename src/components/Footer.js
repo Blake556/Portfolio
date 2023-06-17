@@ -15,13 +15,13 @@ function Footer() {
     <div className="footer-container d-flex align-items-center">
       <div className="">
         <a href="https://github.com/Blake556?tab=repositories" target="_blank">
-          <FontAwesomeIcon icon={faGithub} size="2x" style={iconStyle} />
+          <FontAwesomeIcon icon={faGithub} size="2x" style={iconStyle} className="contact-icon" />
         </a> 
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlwHGTsQfFwMKSSpGxZQmNHhfcLdgvmsXqhcnJjBbGCrwvFxnDvHGdXMDbnvDxpKdGXGX" target="_blank">
-          <FontAwesomeIcon icon={faEnvelope} size="2x" style={iconStyle} />
+          <FontAwesomeIcon icon={faEnvelope} size="2x" style={iconStyle} className="contact-icon"/>
         </a>
         <a>
-          <FontAwesomeIcon icon={faLinkedin} size="2x" style={iconStyle} />
+          <FontAwesomeIcon icon={faLinkedin} size="2x" style={iconStyle} className="contact-icon"/>
         </a>
         {/* <a>
           <FontAwesomeIcon icon={faFacebookF} size="2x" style={iconStyle} />
