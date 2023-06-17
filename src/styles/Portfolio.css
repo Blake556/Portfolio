@@ -39,7 +39,7 @@ h1.page-title {
   }
 
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     .page-container {
         max-width: 400px; 
     }

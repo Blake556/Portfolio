@@ -68,9 +68,10 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .home-outer-container {
        max-width: 400px;
+    
         margin: 0 ;
         padding: 0;
         /* Add additional styling if needed */

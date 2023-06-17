@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .app-body {
@@ -11,7 +12,7 @@
 
 
 .app-container{
-  
+  min-width: 399px;
   background-image: url("../../public/background-img.jpg");
   background-size: cover; /* or contain, depending on your preference */
   

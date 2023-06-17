@@ -26,10 +26,8 @@ a,span {
      border-bottom: 3px solid limegreen;
   }
 
-  @media screen and (max-width: 400px) {
-    .navbar-container {
-        
-    }
+  @media screen and (max-width: 500px) {
+   
    .nav-link {
     font-size: 1rem;
     margin: 0 7px;
