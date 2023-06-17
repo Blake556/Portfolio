@@ -114,11 +114,13 @@
 
 
 @media screen and (max-width: 400px) {
+   
+
     .project-container {
       width: 300px;
-      height: 530px;
-     
-      margin: 0 0 50px ;
+      height: 550px;
+    
+      margin: 0 0 50px 0 ;
      
       }
 

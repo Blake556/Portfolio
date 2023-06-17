@@ -7,6 +7,7 @@ function Project(props) {
     const {screenShot, name, description, techUsed, website, code } = props
 
   return (
+    
     <div className="project-container">
         <div className='screenshot'>
             <img src={screenShot} height='200px'></img>

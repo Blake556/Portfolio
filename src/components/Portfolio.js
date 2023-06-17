@@ -10,7 +10,7 @@ function Portfolio(props) {
         <h1 className="page-title text-center">Portfolio</h1>
       </div>
       <div className="container portf-con">
-        <div className="row ">
+        <div className="row port-row">
           {projectData.map(project => (
             <div className="col col-4 d-flex justify-content-center ">
               <div className="">

@@ -1,4 +1,4 @@
-.con-component {
+.inner-contact-con {
     /* background-color: rgba(0, 78, 134, 0.8); */
     /* background-color: white; */
     padding-bottom: 50px;
@@ -90,6 +90,12 @@ textarea  {
 
 
   @media screen and (max-width: 400px) {
+    .inner-contact-con {
+        /* background-color: rgba(0, 78, 134, 0.8); */
+        /* background-color: white; */
+        max-width: 400px;
+        padding-bottom: 50px;
+    }
     .form-container  {
         /* background-color: rgba(255, 119, 119); */
         /* background-color: rgba(7, 19, 42,); */
@@ -104,8 +110,9 @@ textarea  {
 
     label {
         font-size: 1.2rem;
-        margin: 0%;
-
+        margin-right: 28%;
+        padding: 0;
+       
     } 
 
     .input-container {
@@ -116,12 +123,18 @@ textarea  {
 
     input{
         width: 80%;
+        
+       
         font-size: 1.2rem;
         outline: none;
         border: 2px solid black;
         background-color: transparent;
     }
     
+    form.row, .col {
+        width: 400px;
+    }
+
     textarea.col.col-9  {
         font-size: 1rem;
         resize: none;

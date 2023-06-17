@@ -35,20 +35,20 @@ h1.page-title {
     margin-bottom: 70px; 
     margin-top: 70px;
     margin-right: 40px;
-  margin-left: 40px; 
+    margin-left: 40px; 
   }
 
 
-  /* @media screen and (max-width: 400px) {
-    .page-title {
-        color: #1089FF;
-        color: #FF7777;
-        font-size: 1rem;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Ubuntu', sans-serif;
-        padding: 0;
+  @media screen and (max-width: 400px) {
+    .page-container {
+        max-width: 400px; 
+    }
+
+    div.row.port-row {
+        width: 100%;
         margin: 0;
     }
-  } */
+
+  }
 
   
