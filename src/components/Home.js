@@ -4,7 +4,7 @@ import image from "../images/laptop1.png"
 
 function Home() {
   return (
-    <div className="home-outer-container ">
+    <div className="container home-outer-container">
         <div className="inner-container">
             <div className="row  align-items-center">
                 <div className="col-sm-6 col-12 text-center intro-h-con intro-col">

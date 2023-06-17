@@ -1,7 +1,8 @@
-.home-outercontainer {
+.home-outer-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
     /* Add additional styling if needed */
   }
   
