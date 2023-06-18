@@ -2,22 +2,47 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  
 }
 
 .app-body {
   min-height: 100vh;
-  
+ 
 }
 
 
 .app-container{
-  min-width: 399px;
+  
   background-image: url("../../public/background-img.jpg");
   background-size: cover; /* or contain, depending on your preference */
-  
+ 
   background-repeat: no-repeat;
   background-position: center;
   
+}
+
+@media screen and (min-width: 1200px) {
+  .app-container {
+    min-width: 1400px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+  .app-container {
+    min-width: 1199px
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 992px) {
+  .app-container {
+    min-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .app-container{
+      min-width: 400px;
+  }
+
 }
  

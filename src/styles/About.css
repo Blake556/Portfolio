@@ -8,7 +8,7 @@
 }
 
 h1.page-title {
-    color: white;
+    color: grey;
     padding-bottom: 40px;
     font-family: 'Indie Flower', cursive;
     font-weight: 700;
@@ -104,6 +104,11 @@ h3{
     color: limegreen;
    
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
 
 @media screen and (max-width: 500px) {
 
