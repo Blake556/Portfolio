@@ -44,6 +44,10 @@ h3{
     font-size: 1.2rem;
 }
 
+.about-me {
+    text-indent: 2em;
+}
+
 .about-me-container {
     font-size: 1.4rem;
     color: white;
@@ -100,17 +104,29 @@ h3{
     margin-right: 15px;
 }
 
-.download:hover {
+.view {
+    margin-right: 30px;
+}
+
+.resume:hover {
+    color: limegreen;
+}
+
+a:hover {
     color: limegreen;
    
 }
+
+
+
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
 
     .about-container {
         padding-bottom: 50px;
@@ -166,6 +182,11 @@ h3{
     .resume-container {
         padding-bottom: 50px
         
+    }
+
+    .view {
+        margin-left: 0px;
+        padding: 0;
     }
    
     

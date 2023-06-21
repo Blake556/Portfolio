@@ -11,28 +11,32 @@ import {
   faGitAlt,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import { faFile, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faFile, faDatabase,  faEye } from "@fortawesome/free-solid-svg-icons";
+
 
 function About() {
+  const resumeDNL = "https://drive.google.com/uc?export=download&id=1RguDdlgFjWI40DAMF2BFtiHea4pLqv4c";
+
+  const resumeView = "https://drive.google.com/file/d/1RguDdlgFjWI40DAMF2BFtiHea4pLqv4c/view?usp=sharing"
+
   return (
     <div className="about-container">
       <h1 className="page-title text-center head">About</h1>
       <div className="main-content">
         <div className="about-me-container">
           <div className="header">
-            <h3>About me</h3>
+            <h3>Coding journey</h3>
           </div>
           <div className="summery about-me">
-            <p>
-              I am an passionate inspiring front end web developer. "Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
-            </p>
+            <p>I am a passionate, self-taught front-end web developer who has been teaching myself to code for over two years. I started my journey in late 2020, deliberately taking my time to learn coding thoroughly and gain a deep understanding of it. Initially, I began with Codecademy's full-stack web development course and completed almost 90% of the curriculum. However, I realized that my efforts would be better focused on front-end development, so I decided to narrow my focus and enhance those specific skills.</p>
+
+            <br></br>
+
+            <p>After nearly completing the full-stack course, I recognized that, despite learning various aspects of development, I lacked a comprehensive understanding of how to integrate everything to create websites with JavaScript. This realization prompted me to enroll in a Udemy course, which was also full-stack in nature. However, my primary objective was to concentrate on front-end development using a different educational resource. Through this course, I delved deeper into the practical implementation of JavaScript, learning not only the syntax and concepts but also how to bring everything together to construct cohesive websites.</p>
+
+            <br></br>
+
+            <p>During my time on Udemy, I began working on side projects and created some of my initial websites using JavaScript. For approximately nine months, I utilized this platform, progressing to over 50% completion. Eventually, I felt confident enough to detach from tutorials and adopt a hands-on approach, continually building, troubleshooting, and iterating on my own projects. This process has allowed me to acquire extensive knowledge and experience.</p>
           </div>
         </div>
 
@@ -102,12 +106,7 @@ function About() {
 
           <div className="summery skills-summery">
             <p>
-              I am an passionete inspiring front end web developer. "Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur.{" "}
+             Above are some of the core skills ive ganed from codecademy and udemy as well as other sorses.{" "}
             </p>
           </div>
         </div>
@@ -117,9 +116,13 @@ function About() {
             <h3>Resume</h3>
           </div>
           <div className="summery-resume">
-            <a href="/path/to/resume.pdf" download>
-              <span className="d-text download">Download</span>
-              <FontAwesomeIcon icon={faFile} className="download" />
+            <a href={resumeView} target="_blank" className="view">
+              <span className="d-text resume">View</span>
+              <FontAwesomeIcon icon={faEye} className="download"/>
+            </a>
+            <a href={resumeDNL} className="download">
+              <span className="d-text download resume">Download</span>
+              <FontAwesomeIcon icon={faFile} />
             </a>
           </div>
         </div>
@@ -129,3 +132,5 @@ function About() {
 }
 
 export default About;
+
+

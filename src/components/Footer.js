@@ -21,7 +21,7 @@ function Footer() {
           <FontAwesomeIcon icon={faEnvelope} size="2x" style={iconStyle} className="contact-icon"/>
         </a>
         <a>
-          <FontAwesomeIcon icon={faLinkedin} size="2x" style={iconStyle} className="contact-icon"/>
+          {/* <FontAwesomeIcon icon={faLinkedin} size="2x" style={iconStyle} className="contact-icon"/> */}
         </a>
         {/* <a>
           <FontAwesomeIcon icon={faFacebookF} size="2x" style={iconStyle} />

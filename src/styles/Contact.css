@@ -89,7 +89,7 @@ textarea  {
 } 
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 400px) {
     .inner-contact-con {
         /* background-color: rgba(0, 78, 134, 0.8); */
         /* background-color: white; */
