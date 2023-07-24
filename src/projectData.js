@@ -60,8 +60,8 @@ let projectData = [
         screenShot: techStore,
         name: 'Tech store',
         description: 'This website serves as an e-commerce store, demonstrating the use of vanilla JavaScript and DOM manipulation techniques. It showcases the power and versatility of JavaScript in building interactive and dynamic features for an online store. Through the effective manipulation of the DOM',
-        techUsed: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
-        website: 'https://blake556.github.io/Electronics-store/',
+        techUsed: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+        website: 'https://blake556.github.io/Tech-store/',
         code: 'https://github.com/Blake556/Tech-store' 
     }, 
     {
@@ -69,7 +69,7 @@ let projectData = [
         screenShot: twitter,
         name: 'Twitter 2.0',
         description: 'Twitter 2.0 aims to be a replica of Twitter, showcasing my ability to create a visually similar and functionally identical clone of an existing website. This project has taught me how to upload an image and use it in a web app.',
-        techUsed: ['HTML', 'CSS', 'JavaScript'],
+        techUsed: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
         website: 'https://blake556.github.io/Twitter/',
         code: 'https://github.com/Blake556/Twitter' 
     },    
@@ -78,7 +78,7 @@ let projectData = [
         screenShot: amazon,
         name: 'Amazon 2.0',
         description: 'This website was developed as an e-commerce store with the intention of serving as another replica site. Through this project, I gained valuable insights into using local storage to facilitate data transfer to the cart and enable essential functionality. However, there is room for improvement.',
-        techUsed: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+        techUsed: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
         website: 'https://blake556.github.io/Amazon-2.0/html/clothes.html',
         code: 'https://github.com/Blake556/Amazon-2.0' 
     }, 

@@ -3,7 +3,22 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
- 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    const formElement = form.current;
+    emailjs.sendForm('service_h49fmm3', 'template_7tdlj1q', formElement,  'CaO7EsXX0kFVSMR9b')
+      .then((result) => {
+          console.log(result.text);
+          e.target.reset()
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
+
   return (
 
     <div className="inner-contact-con">
@@ -23,6 +38,7 @@ function Contact() {
           <div className="row  d-flex justify-content-center input-container">
             <label htmlFor="">Message<span class="required">*</span></label>
             <textarea id="w3review" name="Message" rows="4" cols="50" placeholder='' className="col col-9 non-resizable" required >
+              {/* At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies. */}
             </textarea>
           </div>
           <div className="d-flex justify-contant-center"> 

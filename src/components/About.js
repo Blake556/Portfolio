@@ -15,9 +15,9 @@ import { faFile, faDatabase,  faEye } from "@fortawesome/free-solid-svg-icons";
 
 
 function About() {
-  const resumeDNL = "https://drive.google.com/uc?export=download&id=1RguDdlgFjWI40DAMF2BFtiHea4pLqv4c";
+  const resumeDNL = "https://drive.google.com/uc?export=download&id=1YM8LLu_Zen0WF-gynZZUfdVJWk0MXe-X";
 
-  const resumeView = "https://drive.google.com/file/d/1RguDdlgFjWI40DAMF2BFtiHea4pLqv4c/view?usp=sharing"
+  const resumeView = "https://drive.google.com/file/d/1YM8LLu_Zen0WF-gynZZUfdVJWk0MXe-X/view?usp=sharing"
 
   return (
     <div className="about-container">
@@ -25,7 +25,7 @@ function About() {
       <div className="main-content">
         <div className="about-me-container">
           <div className="header">
-            <h3>Coding journey</h3>
+            <h3>Development journey</h3>
           </div>
           <div className="summery about-me">
             <p>I am a passionate, self-taught front-end web developer who has been teaching myself to code for over two years. I started my journey in late 2020, deliberately taking my time to learn coding thoroughly and gain a deep understanding of it. Initially, I began with Codecademy's full-stack web development course and completed almost 90% of the curriculum. However, I realized that my efforts would be better focused on front-end development, so I decided to narrow my focus and enhance those specific skills.</p>
@@ -36,7 +36,7 @@ function About() {
 
             <br></br>
 
-            <p>During my time on Udemy, I began working on side projects and created some of my initial websites using JavaScript. For approximately nine months, I utilized this platform, progressing to over 50% completion. Eventually, I felt confident enough to detach from tutorials and adopt a hands-on approach, continually building, troubleshooting, and iterating on my own projects. This process has allowed me to acquire extensive knowledge and experience.</p>
+            <p>During my time on Udemy, I began working on side projects and created some of my initial websites with JavaScript. I progressed to over 50% completion on this platform. Eventually, I completely detached from tutorials and adopted a hands-on approach, continually building, failing, troubleshooting, and fixing my own projects repeatedly. This process has allowed me to acquire extensive knowledge and experience.</p>
           </div>
         </div>
 
@@ -106,7 +106,7 @@ function About() {
 
           <div className="summery skills-summery">
             <p>
-             Above are some of the core skills ive ganed from codecademy and udemy as well as other sorses.{" "}
+            Above are some of the core skills I've gained from Codecademy, Udemy, and other sources. Another skill that I have, which isn't listed above, is the Express.js framework. I've also worked with Github, Heroku and Firebase for web app deployment. Lastly, while I don't have extensive knowledge of backend development, I do have a basic understanding and some experience working with JavaScript CRUD functions on the backend as well as backend technologies and languages like SQL, SQLite, and Postman.
             </p>
           </div>
         </div>
