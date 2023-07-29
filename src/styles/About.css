@@ -17,7 +17,7 @@ h1.page-title {
 
 .header {
     font-size: 2rem;
-    
+    /* font-family: 'italic' */
     /* color: #1089FF; */
     color: limegreen;
     border-bottom: 2px solid limegreen;
