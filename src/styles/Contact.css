@@ -88,6 +88,29 @@ textarea  {
     color: limegreen;
 } 
 
+.sent-msg {
+    border: 2px solid green;
+    background-color: rgb(185, 235, 185);
+    border-radius: 5px;
+    padding: 5px;
+    color: green;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.fail-msg {
+    border: 2px solid red;
+    background-color: rgb(255, 188, 188);
+    border-radius: 5px;
+    padding: 5px;
+    color: red;
+    margin: 10px auto;
+    max-width: 300px;
+    text-align: center;
+    font-size: 1rem;
+}
+
 
   @media screen and (max-width: 400px) {
     .inner-contact-con {

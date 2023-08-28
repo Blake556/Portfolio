@@ -44,7 +44,7 @@ h3{
     font-size: 1.2rem;
 }
 
-.about-me, .skills-summery {
+.intro {
     text-indent: 2em;
 }
 
@@ -91,6 +91,7 @@ h3{
     font-size: 1.4rem;
     color: white;
     padding-top: 40px;
+    text-indent: 2em;
     /* padding: 40px 0 80px; */
 }
 

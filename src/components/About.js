@@ -28,7 +28,7 @@ function About() {
             <h3>Development Journey</h3>
           </div>
           <div className="summery about-me">
-            <p>I am a passionate, self-taught front-end web developer who has been teaching myself to code for over two years. I started my journey in late 2020, deliberately taking my time to learn coding thoroughly and gain a deep understanding of it. Initially, I began with Codecademy's full-stack web development course. Throughout this learning process, I realized that my efforts would be better focused on front-end or backend development and honing those skills instead of learning everything, i.e., full-stack development. So, I decided to narrow my focus and enhance my front-end skills.</p>
+            <p className="intro">I am a passionate, self-taught front-end web developer who has been teaching myself to code for over two years. I started my journey in late 2020, deliberately taking my time to learn coding thoroughly and gain a deep understanding of it. Initially, I began with Codecademy's full-stack web development course. Throughout this learning process, I realized that my efforts would be better focused on front-end or backend development and honing those skills instead of learning everything, i.e., full-stack development. So, I decided to narrow my focus and enhance my front-end skills.</p>
 
             <br></br>
 
