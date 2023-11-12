@@ -15,9 +15,9 @@ import { faFile, faDatabase,  faEye } from "@fortawesome/free-solid-svg-icons";
 
 
 function About() {
-  const resumeDNL = "https://drive.google.com/uc?export=download&id=1YM8LLu_Zen0WF-gynZZUfdVJWk0MXe-X";
-
-  const resumeView = "https://drive.google.com/file/d/1YM8LLu_Zen0WF-gynZZUfdVJWk0MXe-X/view?usp=sharing"
+  const resumeDNL = "https://drive.google.com/uc?export=download&id=1934H53h0GTZss3k-Y2_ziaYntIXlC1P5";
+ 
+  const resumeView = "https://drive.google.com/file/d/1934H53h0GTZss3k-Y2_ziaYntIXlC1P5/view?usp=sharing"
 
   return (
     <div className="about-container">
