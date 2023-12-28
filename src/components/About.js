@@ -15,9 +15,10 @@ import { faFile, faDatabase,  faEye } from "@fortawesome/free-solid-svg-icons";
 
 
 function About() {
-  const resumeDNL = "https://drive.google.com/uc?export=download&id=1934H53h0GTZss3k-Y2_ziaYntIXlC1P5";
+  const resumeDNL = "https://drive.google.com/uc?export=download&id=16d7eNmwr47bGf2a6jwkd3FP2y9SWCNrv";
  
-  const resumeView = "https://drive.google.com/file/d/1934H53h0GTZss3k-Y2_ziaYntIXlC1P5/view?usp=sharing"
+  const resumeView = " https://drive.google.com/file/d/16d7eNmwr47bGf2a6jwkd3FP2y9SWCNrv/view?usp=sharing"
+
 
   return (
     <div className="about-container">
@@ -28,7 +29,7 @@ function About() {
             <h3>Development Journey</h3>
           </div>
           <div className="summery about-me">
-            <p className="intro">I am a passionate, self-taught front-end web developer who has been teaching myself to code for over two years. I started my journey in late 2020, deliberately taking my time to learn coding thoroughly and gain a deep understanding of it. Initially, I began with Codecademy's full-stack web development course. Throughout this learning process, I realized that my efforts would be better focused on front-end or backend development and honing those skills instead of learning everything, i.e., full-stack development. So, I decided to narrow my focus and enhance my front-end skills.</p>
+            <p className="intro">I am a passionate, self-taught front-end web developer. I have deliberately taken my time to learn coding thoroughly and gain a deep understanding of it, rather than rushing through the process. Initially, I began with Codecademy's full-stack web development course. Throughout this learning journey, I realized that my efforts would be better focused on either front-end or backend development, honing those skills instead of trying to learn everything, i.e., full-stack development. Consequently, I decided to narrow my focus and enhance my front-end skills.</p>
 
             <br></br>
 

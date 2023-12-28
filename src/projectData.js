@@ -23,7 +23,7 @@ let projectData = [
         id: 1,
         screenShot: laterTech,
         name: 'Later Tech',
-        description: 'I built this to showcase the creation of an e-commerce-type store. This is my most recent project. My goal was to create a professionally deployed website with a focus on UI animations. A fully functional pop-up search bar is coming soon.',
+        description: 'Expanding on my previous e-commerce style project, this latest endeavor emphasizes a professionally deployed website with enhanced UI animations and advanced state management for an improved user experience.',
         techUsed: ['React', 'React Router', 'Font Awesome','JavaScript', 'Bootstrap'],
         website: 'https://later-tech.web.app/',
         code: 'https://github.com/Blake556/Later-tech'
