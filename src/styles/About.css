@@ -1,47 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .about-container {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     padding-bottom: 150px;
-    max-width: 1400px;
+  
 }
 
 h1.page-title {
-    color: grey;
+    color: #F6F1EE;
     padding-bottom: 40px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 
 .header {
     font-size: 2rem;
-    /* font-family: 'italic' */
-    /* color: #1089FF; */
-    color: limegreen;
-    border-bottom: 2px solid limegreen;
+    font-weight: 600;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: rgb(250, 213, 166);
+    border-bottom: 2px solid rgb(250, 213, 166);
     padding-left: 15px;
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
 
 .main-content {
-    /* background-color: rgba(31, 31, 31, 0.8); */
-    background-color: rgba(7, 19, 42, 0.8);
-    border-radius: 20px;
+    background-color:rgba(62, 59, 55, 0.9);
     padding: 50px 75px;
-    /* font-weight: bold; */
-    /* margin-bottom: 150px; */
 }
 
 h3{
     font-size: 2.4rem;
+    font-weight: 600;
 }
 
 .summery p {
     margin: 0 25px;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .intro {
@@ -58,34 +56,27 @@ h3{
     padding-bottom: 100px
 }
 
-.skills-icon {
-   padding: 20px 0;
-    color: limegreen;
-   
-}
-
-
-
 .icons {
     display: flex;
     flex-direction: row;
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center horizontally */
+    align-items: center; 
+    text-align: center; 
     justify-content: space-around;
 }
 
-.icons div {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center horizontally */
-    
+.skills-icon {
+   padding: 20px 0;
+   color:rgb(250, 213, 166);
+   
 }
 
 .icons p  {
-    color: white;
+    color:rgb(250, 213, 166);
     text-align: center;
     font-size: 1rem;
 }
+
+
 
 .skills-summery {
     font-size: 1.4rem;
@@ -110,11 +101,11 @@ h3{
 }
 
 .resume:hover {
-    color: limegreen;
+    color:   rgb(235, 133, 65);
 }
 
 a:hover {
-    color: limegreen;
+    color: rgb(235, 133, 65);
    
 }
 
@@ -135,23 +126,18 @@ a:hover {
 
     h1.page-title  {
         font-size: 3rem;
-       
     }
 
+
     .header h3 {
+        font-family: 'Alegreya Sans SC', sans-serif;
         font-size: 2rem;
     }
 
     .main-content {
-        /* background-color: rgba(31, 31, 31, 0.8); */
-        background-color: rgba(7, 19, 42, 0.8);
-        border-radius: 20px;
         width: 100%;
         padding: 20px 0;
-        /* font-weight: bold; */
-        /* margin-bottom: 150px; */
-       /* text-align: center; */
-       margin: 0 auto;
+        margin: 0 auto;
        
     }
 
@@ -172,7 +158,7 @@ a:hover {
  
     .skills-icon {
         
-        font-size: 3rem; /* Adjust as needed */
+        font-size: 3rem; 
       }
 
       .icon-con {

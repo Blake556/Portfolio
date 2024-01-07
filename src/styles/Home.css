@@ -1,75 +1,106 @@
-.home-outer-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    /* Add additional styling if needed */
-  
-  }
-  
-  .inner-container {
-    
+.home-container {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
-  }
-  
-/* using below to fix overflow issue */
-.inro-col, .row {
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
 }
+  
+.home-content-box {
+    margin-bottom: 75px;
+
+}
+
+/* using below to fix overflow issue */
 
 
 .intro-head {
-    color: grey;
-    font-size: 5.6rem; 
-    font-family: 'Indie Flower', cursive;
-    font-weight: 700;
+    background: linear-gradient(135deg,  white 75%, rgb(189, 189, 189) 85%);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 800;
     padding-left: 100px;
     display: inline-block; 
-    /* text-indent: 2em; */
+  
 }
 
 .line-two {
-    /* color: #FF7777; */
-    color: limegreen;
-    margin-left: 120px; /* Reduced margin-left */
-}
+    background: linear-gradient(135deg,  white 45%, rgb(189, 189, 189) 55%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}  
 
-.line-three {
-    margin-right: 56px; /* Reduced margin-right */
-}
 
 .container {
-    padding-top: 80px; /* Reduced padding-top */
+    padding-top: 80px; 
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+
+.home-description h6 {
+    height: 60px;
+    width: 500px;
+    color: white;
+    /* font-family: sans-serif; */
+    font-weight: 600;
+    margin-left: 100px;
 }
 
+.projects-btn {
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 300px;
+    padding: 8px 0;
+    margin: 0 0 0 100px;
+    background-color: #4F4A45;
+    color: white;
+ 
+}
 
 .home-img-container {
-    background-color: rgba(17, 27, 47, 0.8);
-    /* background-color: rgba(16, 137, 255, 0.8); */
-    width: 450px; /* Reduced width */
-    height: 450px; /* Reduced height */
-    border: 3.2px solid #1089FF; /* Reduced border width */
-   margin-right: 0px;
-    /* border: linear-gradient(to right, #FF7777, limegreen); */
+    background-color: #4F4A45;
+    width: 450px; 
+    height: 450px; 
+    border: 3.2px solid  #ED7D31; 
+    margin-right: 0px;
     border-radius: 50%;
-    /* background-color: #111b2f; */
-    /* opacity: 70%; */
     display: flex;
     justify-content: center;
     align-items: center;
     order: 1; 
 }
 
-@media screen and (min-width: 401px) and (max-width: 1400px) {
+
+.projects-btn:hover {
+    background-color: #282523;
+    color: white;
+}
+
+@media screen and (min-width: 1450px)  {
+    h1.intro-head {
+        font-size: 9rem;
+    }
+
+
+    .home-description h6 {
+        height: 60px;
+        width: 600px;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 100px;
+    }
+
+    .projects-btn {
+        margin: 15px 0 0 100px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 1449px) {
 
    .home-outer-container {
     min-height: 800px;
@@ -79,13 +110,14 @@
     }
 
     .intro-h-con {
-        margin-top: 10px;
-        margin-bottom: 20px;
-       padding-right: 80px ;
-        text-align: center;
-       
+       padding-right: 80px ; 
     }
 
+    h1.intro-head {
+        width: 100%;
+        font-size: 6.5rem;
+      
+    }
     .line-two {
         margin-left: 0; 
     }
@@ -115,39 +147,44 @@
 
 
 @media screen and (max-width: 400px) {
-    .home-outer-container {
-       max-width: 400px;
-    
-        margin: 0 ;
+    .home-container {
+        max-width: 375px;
+        margin: 0 auto;
         padding: 0;
-        /* Add additional styling if needed */
       }
 
-      .inner-container {
+      .home-content-box {
         width: 100%;
-      }
-
-
-      /* .row, .col {
-        width: 400px
-    } */
-
+    }
 
 
     .intro-h-con {
-       text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
-    /* .line-two {
-        margin-left: 0; 
-    } */
-    
+    .home-description h6 {
+        font-size: .9rem;
+        padding: 0;
+        margin: 0px;
+        width: 350px;
+    }
+
+  
+
+    .projects-btn {
+        font-size: 1rem;
+        font-weight: 500;
+        width: 200px;
+        padding: 8px 0;
+        margin: 20px 0 0 ;
+        color: white;
+     
+    }
+
 
     .intro-head {
         font-size: 3rem; 
         padding-left: 0;
-       
     }
 
     .home-img-container {
@@ -159,8 +196,8 @@
     }
 
     .home-img-container img {
-        
         height: auto;
-       
     }
   }
+
+

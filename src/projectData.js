@@ -7,35 +7,36 @@ import crypto from './images/project-img/crypto.png'
 import techStore from './images/project-img/tech-store.png'
 import twitter from './images/project-img/twitter.png'
 import portfolio from './images/project-img/portfolio.png'
+import keep from './images/project-img/keep.png'
 
 
 let projectData = [
     {
         id: 0,
-        screenShot: portfolio,
-        name: ' Portfolio',
-        description: 'Building my portfolio site mainly consists of JSX, CSS, and Bootstrap. This project has helped me level up my styling skills as well as my responsiveness skills.',
-        techUsed: ['React', 'React Router', 'Font-Awsome','CSS', 'Bootstrap'],
-        // website: 'https://bkportfoliowebsite.web.app',
-        code: 'https://github.com/Blake556/Portfolio'
-    },
-    {
-        id: 1,
         screenShot: laterTech,
-        name: 'Later Tech',
+        name: 'Later tech',
         description: 'Expanding on my previous e-commerce style project, this latest endeavor emphasizes a professionally deployed website with enhanced UI animations and advanced state management for an improved user experience.',
         techUsed: ['React', 'React Router', 'Font Awesome','JavaScript', 'Bootstrap'],
         website: 'https://later-tech.web.app/',
         code: 'https://github.com/Blake556/Later-tech'
     },
     {
-        id: 2,
+        id: 1,
         screenShot: crypto,
         name: 'Crypto tracker',
         description: 'This app was built with a React front-end deployed to Firebase and an Express back-end deployed to Heroku. Crypto Tracker displays the top crypto prices and enables users to search for specific coins and their data.',
         techUsed: ['Full-stack', 'React', 'Express', 'API', 'Firebase', 'Heroku'],
         website: 'https://crypto-price-live-tracker.web.app/',
         code: 'https://github.com/Blake556/crypto-live-tracker' 
+    },
+    {
+        id: 2,
+        screenShot: keep,
+        name: 'Keep notes',
+        description: 'Inspired by and based on Google Keep, this note-taking app allows users to create, change color themes, save and delete notes. Additionally, users can add notes to favorites or remove them.',
+        techUsed: ['React', 'JavaScript', 'CSS', 'Bootstrap', 'Firebase'],
+        website: 'https://keep-app23.web.app/',
+        code: 'https://github.com/Blake556/Keep' 
     },
     {
         id: 3,
@@ -92,6 +93,15 @@ let projectData = [
         website: 'https://blake556.github.io/Amazon-2.0/html/clothes.html',
         code: 'https://github.com/Blake556/Amazon-2.0' 
     }, 
+    {
+        id: 8,
+        screenShot: portfolio,
+        name: ' Portfolio',
+        description: 'Building my portfolio site mainly consists of JSX, CSS, and Bootstrap. This project has helped me level up my styling skills as well as my responsiveness skills.',
+        techUsed: ['React', 'React Router', 'Font-Awsome','CSS', 'Bootstrap'],
+        website: 'https://bkportfoliowebsite.web.app',
+        code: 'https://github.com/Blake556/Portfolio'
+    }
 
 ]
 

@@ -14,7 +14,7 @@ function Contact() {
     emailjs
       .sendForm(
         "service_h49fmm3",
-        "template_7tdlj1q",
+        "template_7tdlj1q", 
         formElement,
         "CaO7EsXX0kFVSMR9b"
       )
@@ -73,7 +73,6 @@ function Contact() {
             className="col col-9 non-resizable"
             required
           >
-            {/* At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies. */}
           </textarea>
         </div>
         <div className="d-flex justify-contant-center">
@@ -83,7 +82,7 @@ function Contact() {
             <span className="fail-msg">Message Failed to send. Please try again or click the icon at the bottom left of the screen to get in touch.</span>
           ) : (
             <button
-              className="btn btn-xl btn-primary"
+              className="btn contact-btn btn-xl btn-primary"
               type="submit"
               value="send"
             >

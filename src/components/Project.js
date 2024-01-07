@@ -6,7 +6,7 @@ function Project(props) {
 
     const {screenShot, name, description, techUsed, website, code } = props
 
-  return (
+  return ( 
     
     <div className="project-container">
         <div className='screenshot'>
@@ -27,10 +27,10 @@ function Project(props) {
                 <p>{description}</p>
             </div>
            
-            <div className='view-project '>
+            <div className='view-project d-flex justify-content-center'>
                 
-                <a href={website} target='blank'> <span className='btn  view-website'>Site</span></a>
-                <a href={code} target='blank'> <span className='btn  view-code'>Code</span></a>
+                <a href={website} target='blank'> <button className='btn project-btn view-website'>Site</button></a>
+                <a href={code} target='blank'> <button className='btn project-btn view-code'>Code</button></a>
             </div>
         </div>
     </div>

@@ -11,10 +11,10 @@ function Portfolio(props) {
       </div>
       <div className="container portf-con">
         <div className="row   port-row">
-          {projectData.map(project => (
+          {projectData.map(project => ( 
             <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center ">
               <div className="">
-                <Project 
+                <Project  
                   key={project.id}
                   screenShot={project.screenShot}
                   name={project.name}

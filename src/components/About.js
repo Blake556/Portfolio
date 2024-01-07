@@ -14,7 +14,7 @@ import {
 import { faFile, faDatabase,  faEye } from "@fortawesome/free-solid-svg-icons";
 
 
-function About() {
+function About() { 
   const resumeDNL = "https://drive.google.com/uc?export=download&id=16d7eNmwr47bGf2a6jwkd3FP2y9SWCNrv";
  
   const resumeView = " https://drive.google.com/file/d/16d7eNmwr47bGf2a6jwkd3FP2y9SWCNrv/view?usp=sharing"
@@ -61,7 +61,7 @@ function About() {
             </div>
             <div className="icon-con">
               <FontAwesomeIcon className="skills-icon" icon={faJs} size="4x" />
-              <p>javaScript</p>
+              <p className="icon-name">javaScript</p>
             </div>
             <div className="icon-con">
               <FontAwesomeIcon

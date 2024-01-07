@@ -1,7 +1,6 @@
 .footer-container {
-    background-color: rgba(7, 19, 42, 0.8);
-    height: 80px;
-    opacity: 85%;
+    background-color: rgb(235, 133, 65);
+    height: 70px;
 }
 
 .github-icon {
@@ -11,7 +10,7 @@
 }
 
 .github-icon:hover {
-    color: #1089FF;  
+    color: #4F4A45;  
 }
 
 @media screen and (max-width: 500px) {
